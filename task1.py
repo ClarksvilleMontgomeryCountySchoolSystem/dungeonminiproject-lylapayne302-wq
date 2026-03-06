@@ -33,9 +33,9 @@ Bad = r"""
 torch_lit = True
 if torch_lit:
     outcome = "Flicker: Come on let's geto ut of here."
-
+    print(Good)
 else:
     outcome = "Doom: What should we do?"
-
+    print(Bad)
 
 print(outcome)

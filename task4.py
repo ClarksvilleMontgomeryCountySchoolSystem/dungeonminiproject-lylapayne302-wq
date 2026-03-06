@@ -25,8 +25,10 @@ bad = r"""
 drawbridge_raised = False
 if not drawbridge_raised:
     outcome = "Thunder: We need to cross now!!"
+    print(good)
 else:
     outcome = "Doom: We've been caught, RUNNNNN!!!"
+    print(bad)
 
 print(outcome)
 

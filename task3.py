@@ -22,7 +22,8 @@ bad = r"""
 guard_awake = True
 if guard_awake:
     outcome = "Doom: OH NO RUN!"
+    print(bad)
 else:
     outcome = "Shadow: Be quiet, we woke up the guard."
-
+    print(good)
 print(outcome)
